@@ -579,7 +579,8 @@
         "layer0.opacity": 0,
         "layer0.inner_margin": 0,
         "layer0.tint": [190,90,78],
-        "content_margin": [8,8]
+        "content_margin": [8,8],
+        "content_margin": 0
     },
     {
         "class": "close_button",
