@@ -635,7 +635,7 @@
     },
     {
         "class": "icon_folder",
-        "layer0.texture": "Theme - Cyanium/Main/centurion-folder-closed.png",
+        "layer0.texture": "Theme - Cyanium/Main/folder.png",
         "layer0.tint": [100,178,219],
         "content_margin": [8,8]
 
@@ -643,7 +643,7 @@
     {
         "class": "icon_folder",
         "parents": [{"class": "tree_row","attributes": ["expanded"]}],
-        "layer0.texture": "Theme - Cyanium/Main/centurion-folder-open.png"
+        "layer0.texture": "Theme - Cyanium/Main/folder_open.png"
 
     },
     {
