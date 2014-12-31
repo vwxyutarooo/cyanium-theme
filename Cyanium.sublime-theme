@@ -814,6 +814,42 @@
     },
 
     //
+    // Tab controls
+    //
+
+    // left_button
+    {
+        "class": "scroll_tabs_left_button",
+        "content_margin": 0
+    },
+    {
+        "class": "scroll_tabs_left_button",
+        "attributes": ["hover"],
+        "layer1.opacity": 0
+    },
+    // right_button
+    {
+        "class": "scroll_tabs_right_button",
+        "content_margin": 0
+    },
+    {
+        "class": "scroll_tab_right_button",
+        "attributes": ["hover"],
+        "layer1.opacity": 0
+    },
+    // dropdown_button
+    {
+        "class": "show_tabs_dropdown_button",
+        "content_margin": 0,
+        "layer0.opacity": 0
+    },
+    {
+        "class": "show_tabs_dropdown_button",
+        "attributes": ["hover"],
+        "layer1.opacity": 0
+    },
+
+    //
     // TAB LABELS
     //
 
