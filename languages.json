@@ -61,7 +61,6 @@
     {"icon": "license", "scopes": ["license"]}
   ],
   "languages": [
-    {"lang": "Font", "scopes": ["font"], "files": ["ttf", "otf", "woff", "eot"]},
     {"lang": "Adobe Illustrator", "scopes": ["source.xml", "source.illustrator"], "files": ["ai"]},
     {"lang": "Adobe Photoshop", "scopes": ["source.photoshop"], "files": ["psd"]},
     {"lang": "SVG", "scopes": ["text.xml.svg", "source.svg"], "files": ["svg"]},

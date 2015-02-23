@@ -8,11 +8,15 @@ Git and manual install only.
 
     $ git clone https://github.com/vwxyutarooo/cyanium-theme.git Theme - Cyanium
 
-at your packages directory which you may access from SublimeText -> Preferences -> Browse Packages...
+at your packages directory which you may access from SublimeText -> Preferences -> Browse Packages...  
 To activate theme and color scheme,
 
     "theme": "Cyanium.sublime-theme"
     "color_scheme": "Packages/Theme - Cyanium/Monocyanium.tmTheme"
+
+Also this has same file icons as Cyanide, to enable it
+
+    "icon_file_type_enable": true
 
 ## Thanks
 This theme is fork of [cyanide-theme](https://github.com/lefoy/cyanide-theme)

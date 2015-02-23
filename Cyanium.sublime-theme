@@ -635,7 +635,7 @@
     },
     {
         "class": "icon_folder",
-        "layer0.texture": "Theme - Cyanium/Main/centurion-folder-closed.png",
+        "layer0.texture": "Theme - Cyanium/Main/folder.png",
         "layer0.tint": [100,178,219],
         "content_margin": [8,8]
 
@@ -643,7 +643,7 @@
     {
         "class": "icon_folder",
         "parents": [{"class": "tree_row","attributes": ["expanded"]}],
-        "layer0.texture": "Theme - Cyanium/Main/centurion-folder-open.png"
+        "layer0.texture": "Theme - Cyanium/Main/folder_open.png"
 
     },
     {
@@ -811,6 +811,42 @@
         "settings": ["show_tab_close_buttons"],
         "attributes": ["pressed"],
         "layer0.opacity":0.8
+    },
+
+    //
+    // Tab controls
+    //
+
+    // left_button
+    {
+        "class": "scroll_tabs_left_button",
+        "content_margin": 0
+    },
+    {
+        "class": "scroll_tabs_left_button",
+        "attributes": ["hover"],
+        "layer1.opacity": 0
+    },
+    // right_button
+    {
+        "class": "scroll_tabs_right_button",
+        "content_margin": 0
+    },
+    {
+        "class": "scroll_tab_right_button",
+        "attributes": ["hover"],
+        "layer1.opacity": 0
+    },
+    // dropdown_button
+    {
+        "class": "show_tabs_dropdown_button",
+        "content_margin": 0,
+        "layer0.opacity": 0
+    },
+    {
+        "class": "show_tabs_dropdown_button",
+        "attributes": ["hover"],
+        "layer1.opacity": 0
     },
 
     //
