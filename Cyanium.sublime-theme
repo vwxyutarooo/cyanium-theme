@@ -494,7 +494,7 @@
     {
         "class": "sidebar_tree",
         "row_padding": [8,4],
-        "indent":16,
+        "indent": 16,
         "indent_offset": 1,
         "indent_top_level": false,
         "dark_content": true
@@ -646,9 +646,28 @@
         "layer0.texture": "Theme - Cyanium/Main/folder_open.png"
 
     },
+
+    // Icon folder loading
     {
         "class": "icon_folder_loading",
-        "content_margin": [0,0]
+        "layer0.texture":
+        {
+            "keyframes":
+            [
+                "Theme - Cyanium/Main/spinner7.png",
+                "Theme - Cyanium/Main/spinner6.png",
+                "Theme - Cyanium/Main/spinner5.png",
+                "Theme - Cyanium/Main/spinner4.png",
+                "Theme - Cyanium/Main/spinner3.png",
+                "Theme - Cyanium/Main/spinner2.png",
+                "Theme - Cyanium/Main/spinner1.png",
+                "Theme - Cyanium/Main/spinner.png",
+            ],
+            "loop": true,
+            "frame_time": 0.075
+        },
+        "layer0.opacity": 1.0,
+        "content_margin": [8, 8]
     },
 
     //
@@ -679,29 +698,6 @@
         "settings": ["icon_file_type_enable"],
         "parents": [{"class": "tree_row","attributes": ["selected", "hover"]}],
         "layer0.opacity": 1
-    },
-
-    // Icon folder loading
-    {
-        "class": "icon_folder_loading",
-        "layer0.texture":
-        {
-            "keyframes":
-            [
-                "Theme - Cyanium/Main/spinner7.png",
-                "Theme - Cyanium/Main/spinner6.png",
-                "Theme - Cyanium/Main/spinner5.png",
-                "Theme - Cyanium/Main/spinner4.png",
-                "Theme - Cyanium/Main/spinner3.png",
-                "Theme - Cyanium/Main/spinner2.png",
-                "Theme - Cyanium/Main/spinner1.png",
-                "Theme - Cyanium/Main/spinner.png",
-            ],
-            "loop": true,
-            "frame_time": 0.075
-        },
-        "layer0.opacity": 1.0,
-        "content_margin": [8, 8]
     },
 
     //
